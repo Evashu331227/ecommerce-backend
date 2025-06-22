@@ -1,0 +1,23 @@
+# Java
+*.class
+*.jar
+*.war
+
+# Gradle
+.gradle
+build/
+!gradle-wrapper.jar
+
+# Logs
+*.log
+
+# IDEs
+*.iml
+.idea/
+.vscode/
+
+# Environment
+.env
+
+# OS
+.DS_Store
