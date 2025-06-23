@@ -17,6 +17,7 @@ public class ProductController {
 
     @GetMapping
     public List<Product> getAllProducts() {
+        System.out.println("📦 [LOG] Fetching all products...");
         return productRepository.findAll();
     }
 }
